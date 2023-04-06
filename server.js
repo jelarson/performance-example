@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 app.get('/timer', (req, res) => {
     // delay the response
     delay(9000);
-    res.send('Ding ding ding!');
+    res.send('Beep beep beep!');
 })
 
 // if (cluster.isMaster) {
