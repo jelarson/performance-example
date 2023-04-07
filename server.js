@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 
 app.get('/timer', (req, res) => {
     // delay the response
-    delay(9000);
+    delay(4000);
     res.send('Beep beep beep!');
 })
 
